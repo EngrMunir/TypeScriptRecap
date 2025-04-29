@@ -24,7 +24,7 @@ let friends:string[] =['faria','monir']
 
 let eligibleRoleList : number[]=[1,2,3]
 
-eligibleRoleList.push('dd')
+// eligibleRoleList.push('dd')
 
  // tuple --> array --> order --> type of values
 

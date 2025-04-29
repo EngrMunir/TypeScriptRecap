@@ -23,7 +23,5 @@
 
     const result1 = getPropertyValue(user,'name');
 
-    
-
     // obj['key']
 }
