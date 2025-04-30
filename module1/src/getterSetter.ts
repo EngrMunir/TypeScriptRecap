@@ -1,5 +1,5 @@
 {
-    // access modifier
+    // getter and setter
     class BankAccount {
         readonly id:number;
         name:string;
@@ -10,8 +10,12 @@
             this.name = name;
             this._balance = balance;
         }
+
+        get getBalance(){
+            return this._balance;
+        }
         
-        addBalance(amount:number){
+        set addBalance(amount:number){
             this._balance= this._balance + amount;
         }
     }
@@ -23,5 +27,6 @@
     }
 
     const poorDeveloperAccount = new BankAccount(111, "Poor Developer", 20);
-    poorDeveloperAccount.addBalance(500);
+    poorDeveloperAccount.addBalance =500;
+    poorDeveloperAccount.getBalance;
 }
